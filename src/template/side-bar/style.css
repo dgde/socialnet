@@ -1,0 +1,23 @@
+.side-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+
+    background-color: transparent;
+
+    display: grid;
+    grid-template-rows: var(--header-height) 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "side-bar-header" "side-bar-body";
+
+    transition: width var(--show-side-bar-animation-time);
+}
+
+.side-bar-sm {
+    width: var(--side-bar-sm-width);
+}
+
+.side-bar-lg {
+    width: var(--side-bar-lg-width);
+}

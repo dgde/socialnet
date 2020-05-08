@@ -1,0 +1,22 @@
+.header-menu {
+    height: 100%;
+    margin: 0px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu .header-menu-list {
+    height: 100%;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-bottom: 0;
+}

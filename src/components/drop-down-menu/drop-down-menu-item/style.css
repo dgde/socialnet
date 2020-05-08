@@ -1,0 +1,32 @@
+.drop-down-menu-item {
+    width: 100%;
+}
+
+.drop-down-menu-item .drop-down-menu-link {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+
+    transition: background-color .3s;
+}
+
+.drop-down-menu-item .drop-down-menu-link:hover {
+    background-color: #E0E0E0;
+}
+
+.drop-down-menu-item .drop-down-menu-link .drop-down-menu-icon {
+    color: #727272;
+    vertical-align: top;
+    margin-right: 10px;
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.drop-down-menu-item .drop-down-menu-link .drop-down-menu-text {
+    color: #727272;
+    font-size: 14px;    
+}
